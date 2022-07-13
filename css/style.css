@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 0px) {
+  .body__login {
+    background-color: #191414;
+    padding: 3rem;
+    height: 100vh;
+  }
+  .body__login header .logo {
+    width: 30rem;
+  }
+  .body__login header .logo img {
+    width: 100%;
+  }
+  .body__login .title div {
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700 !important;
+  }
+  .body__login .input form .form-data {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid #FFFFFF 0.2rem;
+    outline: none;
+    font-size: 2rem;
+    width: 30rem;
+    color: #FFFFFF;
+  }
+  .body__login .input form .form-data::placeholder {
+    color: #FFFFFF;
+  }
+  .body__login .input form .buttons__button-login, .body__login .input form .buttons__button-facebook {
+    font-size: 2rem;
+    width: 30rem;
+    border: none;
+    border-radius: 10rem;
+    padding: 1rem;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    color: #191414;
+  }
+  .body__login .input form .buttons__button-facebook {
+    background-color: rgb(5, 64, 159);
+    color: #FFFFFF;
+  }
+  .body__login footer div {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+  }
+  .body__login footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+  }
+  .body__login footer a:hover {
+    text-decoration: underline;
+  }
+}
+@media (min-width: 0px) {
+  .body__index {
+    background-color: #191414;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

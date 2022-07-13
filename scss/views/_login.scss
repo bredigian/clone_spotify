@@ -1,0 +1,69 @@
+@media (min-width: 0px){
+    .body__login{
+        background-color: $blackSpotify;
+        padding: 3rem;
+        height: 100vh;
+        header{
+            .logo{
+                width: 30rem;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .title{
+            div{
+                color: #FFFFFF;
+                font-size: 3rem;
+                font-weight: 700 !important;
+            }
+        }
+        .input{
+            form{
+                .form-data{
+                    background-color: transparent;
+                    border: none;
+                    border-bottom: solid #FFFFFF .2rem;
+                    outline: none;
+                    font-size: 2rem;
+                    width: 30rem;
+                    color: #FFFFFF;
+                    &::placeholder{
+                        color: #FFFFFF;
+                    }
+                }
+                .buttons{
+                    &__button-login{
+                        font-size: 2rem;
+                        width: 30rem;
+                        border: none;
+                        border-radius: 10rem;
+                        padding: 1rem;
+                        font-weight: 700;
+                        background-color: #FFFFFF;
+                        color: $blackSpotify;
+                    }
+                    &__button-facebook{
+                        @extend .buttons__button-login;
+                        background-color: rgb(5, 64, 159);
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+        footer{
+            div{
+                color: #FFFFFF;
+                font-size: 1.5rem;
+            }
+            a{
+                text-decoration: none;
+                color: #FFFFFF;
+                font-size: 1.5rem;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

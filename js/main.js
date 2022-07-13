@@ -1,0 +1,1 @@
+const toIndex = () => location.href= "../html/index.html"
