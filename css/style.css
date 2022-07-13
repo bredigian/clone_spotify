@@ -71,6 +71,7 @@ html {
 }
 @media (min-width: 0px) {
   .body__index {
+    height: 100vh;
     background-color: #191414;
   }
   .body__index header {
