@@ -25,6 +25,7 @@
         .playlist{
             padding: 2rem;
             &-item{
+                text-decoration: none;
                 padding: 0!important;
                 background-color: #363636;
                 border-radius: .5rem;

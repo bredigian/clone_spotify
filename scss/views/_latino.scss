@@ -1,0 +1,89 @@
+@media (min-width: 0px){
+    .body__latino{
+        background-color: $blackSpotify;
+        .header{
+            padding: 2rem;
+            &-backToIndex{
+                a{
+                    @include styleAnchor;
+                    font-size: 2rem;
+                }
+            }
+            &-img{
+                img{
+                    width: 20rem;
+                }
+            }
+        }
+        .playlist{
+            padding: 2rem;
+            &-info{
+                &__name{
+                    color: #FFF;
+                    font-size: 2rem;
+                    font-weight: 700;
+                }
+                &__profile{
+                    &-img{
+                        width: 2rem;
+                        img{
+                            width: 100%;
+                            border-radius: 100%;
+                        }
+                    }
+                    &-name{
+                        color: #FFF;
+                        font-size: 1.1rem;
+                    }
+                }
+                &__actions{
+                    &-item{
+                        i{
+                            color: #FFF;
+                            font-size: 2rem;
+                        }
+                        &:last-child{
+                            width: 5rem;
+                            height: 5rem;
+                            padding: 1rem;
+                            background-color: $greenSpotify;
+                            border-radius: 100%;
+                            i{
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+            &-music{
+                &__item{
+                    &-img{
+                        width: 5rem;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    &-artist{
+                        &__nameSong{
+                            color: #FFF;
+                            font-size: 1.25rem;
+                        }
+                        &__nameArtist{
+                            color: rgb(178, 178, 178);
+                            font-size: 1.1rem;
+                        }
+                    }
+                    &-settings{
+                        i{
+                            color: #FFF;
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+        .navbars{
+            @include navBar;
+        }
+    }
+}
