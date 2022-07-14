@@ -10,41 +10,77 @@
     <title>Settings - Spotify</title>
 </head>
 <body class="body__settings">
-    <header class="header d-flex align-items-center">
+    <header class="header d-flex align-items-center w-100">
         <div class="backToIndex">
             <a href="../index.html"><i class="fa-solid fa-arrow-left"></i></a>
         </div>
-        <div class="header-title">Settings</div>
+        <div class="header-title flex-grow-1">Settings</div>
     </header>
-    <div class="profile">
-        <a href="">
-            <div class="profile-img">
-                <img src="" alt="">
+    <div class="profile w-100">
+        <a class="profile-container d-flex align-items-center justify-content-between gap-4" href="">
+            <div class="profile-container__img">
+                <img src="../img/profile/perfil-transparent-white.png" alt="Profile">
             </div>
-            <div class="profile-name">
-                <span class="profile-name__title">Username</span>
-                <span class="profile-name__subtitle">View Profile</span>
+            <div class="profile-container__name d-flex flex-column flex-grow-1 align-items-start">
+                <span class="profile-container__name-title">Username</span>
+                <span class="profile-container__name-subtitle">View Profile</span>
             </div>
-            <div class="profile-icon"><i class="fa-solid fa-chevron-right"></i></div>
+            <div class="profile-container__icon"><i class="fa-solid fa-chevron-right"></i></div>
         </a>
     </div>
-    <div class="account">
+    <div class="account d-flex flex-column align-items-start w-100">
         <span class="account-title">Account</span>
         <div class="account-type">
-            <a href="">
+            <a class="d-flex flex-column" href="#">
                 <span class="account-type__title">Premium Plan</span>
                 <span class="account-type__details">View your plan</span>
             </a>
         </div>
         <div class="account-email">
-            <a href="">
+            <a class="d-flex flex-column" href="#">
                 <span class="account-email__title">Email</span>
                 <span class="email">email@gmail.com</span>
             </a>
         </div>
     </div>
-    <div class="logOut">
+    <div class="logOut d-flex flex-column w-100">
+        <span class="logOut-title">Other</span>
         <a href="./login.html">Log Out</a>
+    </div>
+    <div class="navbars d-flex flex-column align-items-center gap-3">
+        <div class="navbars-player d-flex w-100 justify-content-between align-items-center">
+            <div class="navbars-player__img">
+                <img src="../img/artist/pauloLondra.jpg" alt="">
+            </div>
+            <span class="navbars-player__artist">Paulo Londra - Chance</span>
+            <ul class="navbars-player-buttons d-flex gap-4">
+                <li><i class="fa-solid fa-laptop"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+                <li><i class="fa-solid fa-play"></i></li>
+            </ul>
+        </div>
+        <nav class="navbar w-100">
+            <div class="navbar-menu d-flex w-100 justify-content-center gap-2">
+                <div class="navbar-menu__item">
+                    <a class="d-flex flex-column align-items-center" href="../index.html">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Home</span>
+                    </a>
+                </div>
+                <div class="navbar-menu__item">
+                    <a class="d-flex flex-column align-items-center" href="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <span>Search</span>
+                    </a>
+                </div>
+                <div class="navbar-menu__item">
+                    <a class="d-flex flex-column align-items-center" href="">
+                        <i class="fa-solid fa-compact-disc"></i>
+                        <span>Your Library</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
     </div>
 </body>
 </html>

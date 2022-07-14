@@ -1,0 +1,85 @@
+@media(min-width: 0px){
+    .body__settings{
+        background-color: $blackSpotify;
+        .header{
+            padding: 2rem;
+            .backToIndex{
+                a{
+                    color: #FFF;
+                    text-decoration: none;
+                    font-size: 2rem;
+                }
+            }
+            &-title{
+                color: #FFF;
+                font-size: 1.5rem;
+                text-align: center;
+                margin-right: 2rem;
+            }
+        }
+        .profile{
+            padding: 2rem;
+            &-container{
+                text-decoration: none;
+                color: #FFF;
+                &__img{
+                    width: 5rem;
+                    img{
+                        border-radius: 100%;
+                        width: 100%;
+                    }
+                }
+                &__name{
+                    &-title{
+                        font-size: 2rem;
+                    }
+                    &-subtitle{
+                        font-size: 1.2rem;
+                    }
+                }
+                &__icon{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .account{
+            padding: 2rem;
+            gap: 2rem;
+            &-title{
+                @include settingsTitles;      
+            }
+            &-type{
+                a{
+                    text-decoration: none;
+                    color: #FFF;
+                    .account-type__title{
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+            &-email{
+                @extend .account-type;
+                a{
+                    .account-email__title{
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+        .logOut{
+            padding: 2rem;
+            margin-bottom: 25rem;
+            gap: 2rem;
+            &-title{
+                @include settingsTitles;
+            }
+            a{
+                @include styleAnchor;
+                font-size: 1.2rem;
+            }
+        }
+        .navbars{
+            @include navBar;
+        }
+    }
+}

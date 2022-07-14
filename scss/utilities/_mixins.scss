@@ -1,0 +1,60 @@
+@mixin navBar{
+    position: sticky;
+    bottom: 0;
+    padding: 0 1rem;
+    background: rgba($color: #000000, $alpha: .9);
+    box-shadow: 0px -10px 25px 10px rgb(0 0 0);
+    &-player{
+        background-color: #524343;
+        padding: 1rem;
+        border-radius: 1rem;
+        &__img{
+            width: 3rem;
+            img{
+                width: 100%;
+                border-radius: .5rem;
+            }
+        }
+        &__artist{
+            color: #FFF;
+            font-size: 1.2rem;
+        }
+        &-buttons{
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            li{
+                font-size: 2rem;
+                color: #FFF;
+            }
+        }
+    }
+    .navbar{
+        &-menu{
+            &__item{
+                width: 10rem;
+                a{
+                    text-decoration: none;
+                    color: #FFF;
+                    i{
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@mixin hoverContainerSettings{
+    &:hover{
+        background-color: black;
+    }
+}
+@mixin styleAnchor{
+    text-decoration: none;
+    color: #FFF;
+}
+@mixin settingsTitles{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;  
+}

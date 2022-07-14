@@ -71,7 +71,6 @@ html {
 }
 @media (min-width: 0px) {
   .body__index {
-    height: 100vh;
     background-color: #191414;
   }
   .body__index header {
@@ -187,6 +186,124 @@ html {
     color: #FFF;
   }
   .body__index .navbars .navbar-menu__item a i {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 0px) {
+  .body__settings {
+    background-color: #191414;
+  }
+  .body__settings .header {
+    padding: 2rem;
+  }
+  .body__settings .header .backToIndex a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  .body__settings .header-title {
+    color: #FFF;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-right: 2rem;
+  }
+  .body__settings .profile {
+    padding: 2rem;
+  }
+  .body__settings .profile-container {
+    text-decoration: none;
+    color: #FFF;
+  }
+  .body__settings .profile-container__img {
+    width: 5rem;
+  }
+  .body__settings .profile-container__img img {
+    border-radius: 100%;
+    width: 100%;
+  }
+  .body__settings .profile-container__name-title {
+    font-size: 2rem;
+  }
+  .body__settings .profile-container__name-subtitle {
+    font-size: 1.2rem;
+  }
+  .body__settings .profile-container__icon {
+    font-size: 1.5rem;
+  }
+  .body__settings .account {
+    padding: 2rem;
+    gap: 2rem;
+  }
+  .body__settings .account-title {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .body__settings .account-type a, .body__settings .account-email a {
+    text-decoration: none;
+    color: #FFF;
+  }
+  .body__settings .account-type a .account-type__title, .body__settings .account-email a .account-type__title {
+    font-size: 1.5rem;
+  }
+  .body__settings .account-email a .account-email__title {
+    font-size: 1.5rem;
+  }
+  .body__settings .logOut {
+    padding: 2rem;
+    margin-bottom: 25rem;
+    gap: 2rem;
+  }
+  .body__settings .logOut-title {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .body__settings .logOut a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.2rem;
+  }
+  .body__settings .navbars {
+    position: sticky;
+    bottom: 0;
+    padding: 0 1rem;
+    background: rgba(0, 0, 0, 0.9);
+    box-shadow: 0px -10px 25px 10px rgb(0, 0, 0);
+  }
+  .body__settings .navbars-player {
+    background-color: #524343;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  .body__settings .navbars-player__img {
+    width: 3rem;
+  }
+  .body__settings .navbars-player__img img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  .body__settings .navbars-player__artist {
+    color: #FFF;
+    font-size: 1.2rem;
+  }
+  .body__settings .navbars-player-buttons {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  .body__settings .navbars-player-buttons li {
+    font-size: 2rem;
+    color: #FFF;
+  }
+  .body__settings .navbars .navbar-menu__item {
+    width: 10rem;
+  }
+  .body__settings .navbars .navbar-menu__item a {
+    text-decoration: none;
+    color: #FFF;
+  }
+  .body__settings .navbars .navbar-menu__item a i {
     font-size: 2rem;
   }
 }
