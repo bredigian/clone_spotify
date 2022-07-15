@@ -309,111 +309,111 @@ html {
   }
 }
 @media (min-width: 0px) {
-  .body__latino {
+  .body__playlist {
     background-color: #191414;
   }
-  .body__latino .header {
+  .body__playlist .header {
     padding: 2rem;
   }
-  .body__latino .header-backToIndex a {
+  .body__playlist .header-backToIndex a {
     text-decoration: none;
     color: #FFF;
     font-size: 2rem;
   }
-  .body__latino .header-img img {
+  .body__playlist .header-img img {
     width: 20rem;
   }
-  .body__latino .playlist {
+  .body__playlist .playlist {
     padding: 2rem;
   }
-  .body__latino .playlist-info__name {
+  .body__playlist .playlist-info__name {
     color: #FFF;
     font-size: 2rem;
     font-weight: 700;
   }
-  .body__latino .playlist-info__profile-img {
+  .body__playlist .playlist-info__profile-img {
     width: 2rem;
   }
-  .body__latino .playlist-info__profile-img img {
+  .body__playlist .playlist-info__profile-img img {
     width: 100%;
     border-radius: 100%;
   }
-  .body__latino .playlist-info__profile-name {
+  .body__playlist .playlist-info__profile-name {
     color: #FFF;
     font-size: 1.1rem;
   }
-  .body__latino .playlist-info__actions-item i {
+  .body__playlist .playlist-info__actions-item i {
     color: #FFF;
     font-size: 2rem;
   }
-  .body__latino .playlist-info__actions-item:last-child {
+  .body__playlist .playlist-info__actions-item:last-child {
     width: 5rem;
     height: 5rem;
     padding: 1rem;
     background-color: #1DB954;
     border-radius: 100%;
   }
-  .body__latino .playlist-info__actions-item:last-child i {
+  .body__playlist .playlist-info__actions-item:last-child i {
     color: black;
   }
-  .body__latino .playlist-music__item-img {
+  .body__playlist .playlist-music__item-img {
     width: 5rem;
   }
-  .body__latino .playlist-music__item-img img {
+  .body__playlist .playlist-music__item-img img {
     width: 100%;
   }
-  .body__latino .playlist-music__item-artist__nameSong {
+  .body__playlist .playlist-music__item-artist__nameSong {
     color: #FFF;
     font-size: 1.25rem;
   }
-  .body__latino .playlist-music__item-artist__nameArtist {
+  .body__playlist .playlist-music__item-artist__nameArtist {
     color: rgb(178, 178, 178);
     font-size: 1.1rem;
   }
-  .body__latino .playlist-music__item-settings i {
+  .body__playlist .playlist-music__item-settings i {
     color: #FFF;
     font-size: 2rem;
   }
-  .body__latino .navbars {
+  .body__playlist .navbars {
     position: sticky;
     bottom: 0;
     padding: 0 1rem;
     background: rgba(0, 0, 0, 0.9);
     box-shadow: 0px -10px 25px 10px rgb(0, 0, 0);
   }
-  .body__latino .navbars-player {
+  .body__playlist .navbars-player {
     background-color: #524343;
     padding: 1rem;
     border-radius: 1rem;
   }
-  .body__latino .navbars-player__img {
+  .body__playlist .navbars-player__img {
     width: 3rem;
   }
-  .body__latino .navbars-player__img img {
+  .body__playlist .navbars-player__img img {
     width: 100%;
     border-radius: 0.5rem;
   }
-  .body__latino .navbars-player__artist {
+  .body__playlist .navbars-player__artist {
     color: #FFF;
     font-size: 1.2rem;
   }
-  .body__latino .navbars-player-buttons {
+  .body__playlist .navbars-player-buttons {
     padding: 0;
     margin: 0;
     list-style-type: none;
   }
-  .body__latino .navbars-player-buttons li {
+  .body__playlist .navbars-player-buttons li {
     font-size: 2rem;
     color: #FFF;
   }
-  .body__latino .navbars .navbar-menu__item {
+  .body__playlist .navbars .navbar-menu__item {
     width: 10rem;
   }
-  .body__latino .navbars .navbar-menu__item a {
+  .body__playlist .navbars .navbar-menu__item a {
     text-decoration: none;
     color: #FFF;
   }
-  .body__latino .navbars .navbar-menu__item a i {
+  .body__playlist .navbars .navbar-menu__item a i {
     font-size: 2rem;
   }
 }
