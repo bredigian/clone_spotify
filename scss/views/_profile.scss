@@ -1,0 +1,87 @@
+@media(min-width: 0px){
+    .body__profile{
+        background: linear-gradient(0deg, rgba(25,20,20,1) 88%, rgba(29,185,84,1) 100%, rgba(29,185,84,1) 100%); 
+        .header{
+            padding: 2rem;
+            .backToSettings{
+                a{
+                    @include styleAnchor;
+                    font-size: 2rem
+                }
+            }
+            .options{
+                @extend .backToSettings;
+            }
+        }
+        .info{
+            padding: 2rem;
+            &-img{
+                width: 12.5rem;
+                img{
+                    width: 100%;
+                    border-radius: 100%;
+                }
+            }
+            &-name{
+                color: #FFF;
+                font-size: 2rem;
+                font-weight: 700;
+            }
+            button{
+                background-color: transparent;
+                color: #FFF;
+                border: solid #524343 .2rem;
+                padding: .5rem 1rem;
+                border-radius: 2rem;
+                font-size: 1.5rem;
+                font-weight: 700;
+            }
+            &-followers{
+                div{
+                    font-weight: 700;
+                    .nro{
+                        color: #FFF;
+                        font-size: 1.25rem;
+                    }
+                    .title{
+                        color: #a1a1a1;
+                        font-size: 1.25rem;
+                        letter-spacing: 2px;
+                    }
+                }
+            }
+        }
+        .playlists{
+            padding: 2rem;
+            gap: 1rem;
+            &-title{
+                @include settingsTitles;
+            }
+            &-container{
+                gap: 1rem;
+                &__item{
+                    &-img{
+                        width: 5rem;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    &-data{
+                        .namePlaylist{
+                            color: #FFF;
+                            font-size: 1.5rem;
+                            font-weight: 700;
+                        }
+                        .nroFollowers{
+                            color: #FFF;
+                            font-size: 1.25rem;
+                        }
+                    }
+                }
+            }
+        }
+        .navbars{
+            @include navBar;
+        }
+    }
+}
