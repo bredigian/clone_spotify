@@ -1,0 +1,60 @@
+@media(min-width: 0px){
+    .body__library{
+        background-color: $blackSpotify;
+        .header{
+            padding: 2rem;
+            &-item{
+                &__img{
+                    width: 2.5rem;
+                    img{
+                        width: 100%;
+                        border-radius: 100%;
+                    }
+                }
+                &__title{
+                    @include settingsTitles;
+                }
+                a{
+                    @include styleAnchor;
+                    i{
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+        .library-container{
+            padding: 2rem;
+            margin-bottom: 25rem;
+            &__playlist{
+                text-decoration: none;
+                &-img{
+                    width: 6rem;
+                    img{
+                        width: 100%;
+                    }
+                }
+                &-info{
+                    &__name{
+                        @include settingsTitles
+                    }
+                    &__container{
+                        &-icons{
+                            i{
+                                color: $greenSpotify;
+                                font-size: 1.2rem;
+                            }
+                        }
+                        p{
+                            color: rgb(178, 178, 178);
+                            font-size: 1.2rem;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .navbars{
+            @include navBar
+        }
+    }
+}
